@@ -1,0 +1,109 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    border: solid;
+    border-color: #BB7E8C;
+    border-width: 75px;
+  }
+  
+  h1 {
+    margin-top: 20px;
+    color: #BB7E8C;
+  }
+  
+  .input-container {
+    margin: auto;
+    border: 10px ridge;
+    width: 200px;
+    margin-bottom: 10px;
+    padding: 5px;
+  }
+
+  .result-container {
+    margin-top: 20px;
+    font-size: 20px;
+    column-count: 3;
+  }
+
+  #expenses-list {
+    color: rosybrown;
+    border: dotted;
+    margin: 50px;
+    padding: 25px;
+    background-color: lightgrey;
+    text-decoration: underline;
+    text-decoration-color: black;
+  }
+
+  #total-expenses {
+    color: red;
+    border: 10px ridge;
+    width: 250px;
+    margin-left: auto;
+    margin-right: 25px;
+    margin-top: 25px;
+    column-count: 1;
+    font-size: 35px;
+  }
+  
+  #result {
+    color: black;
+    border: 10px ridge;
+    width: 500px;
+    margin: auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    column-count: 1;
+    font-size: 35px;
+    padding-bottom: 30px;
+  }
+
+  button {
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #2980b9;
+  }
+
+  nav {
+    display: flex;
+    margin: 25px;
+  }
+
+  nav a {
+    display: list-item;
+    margin-left: 25px;
+  }
+  
+  nav a:hover {
+    background-color: black;
+    color: white;
+  }
+
+  header {
+    background-color: #5A86AD;
+    font-family: 'Roboto', sans-serif;
+    display: grid;
+    grid-template-columns: 150px auto;
+  }
+
+  #img {
+    height: 350px;
+    width: 350px;
+    margin: 25px;
+    border: dotted tan 10px;
+  }
+
+  #vid {
+    height: 300px;
+    width: 300px;
+    margin: 25px;
+    border: dotted tan 10px;
+  }

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles/styles.css">
+  <title>Budget</title>
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="index.html">Budget</a>
+      <a href="2021.html">2021</a>
+      <a href="2022.html">2022</a>
+      <a href="2023.html">2023</a>
+    </nav>
+  </header>
+  <h1>Brent and Ryann's Budget</h1>
+ 
+  <div class="input-container">
+    <label for="income" id="butt">Income:</label>
+    <input type="number" id="income" placeholder="Enter your income">
+  </div>
+  
+  <div class="input-container">
+    <label for="expenses-file">Expenses:</label>
+    <input type="file" id="expenses-file">
+  </div>
+
+  <div id="expenses-list" class="result-container">
+    <p>Expenses:</p>
+    <div id="expenses"></div>
+  </div>
+  
+  <div id="total-expenses" class="result-container">
+    <p>Total Expenses:</p>
+    <span id="total-expense">0</span>
+  </div>
+  
+  <button id="calculate">Calculate</button>
+  
+  <div id="result" class="result-container">
+    <p>Total Remaining Balance:</p>
+    <span id="balance">0</span>
+  </div>
+  
+  <script src="scripts/budget.js"></script>
+</body>
+</html>
