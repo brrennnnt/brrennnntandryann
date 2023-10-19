@@ -1,8 +1,10 @@
-  body {
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}body {
     font-family: Arial, sans-serif;
-    text-align: center;
-    margin: 0;
-    padding: 0;
     border: solid;
     border-color: #BB7E8C;
     border-width: 50px;
@@ -70,37 +72,42 @@
     background-color: #2980b9;
   }
 
-  nav {
-    display: flex;
-    margin: 25px;
-  }
+nav {
+    background-color: #2980b9;
+    margin: 0 auto;
 
-  nav a {
-    display: list-item;
-    margin-left: 25px;
-  }
-  
-  nav a:hover {
+}
+nav ul {
+  display: flex;
+  justify-content: space-evenly;
+  list-style-type: none;
+  flex-direction: column;
+}
+nav ul li {
+  flex: 1 1 100%;
+}
+nav li a {
+    display: block;
+    color: #fff;
+}
+nav a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 1rem;
+    text-decoration: none;
+}
+nav a:hover {
     background-color: #BB7E8C;
-    color: white;
-  }
-
-  header {
-    background-color: #5A86AD;
-    font-family: 'Roboto', sans-serif;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  footer {
-    background-color: #5A86AD;
-    font-family: 'Roboto', sans-serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 0;
-    margin: 0;
-  }
+    border: solid;
+    border-color: #fff;
+    font-size: large;
+    color: #fff;
+}
+nav .active {
+    color: black;
+    text-decoration: underline;
+}
   #logo {
     width: 50px;
   }
@@ -121,72 +128,4 @@
     width: 300px;
     margin: 25px;
     border: dotted tan 10px;
-  }
-  .fillerspace {
-    height: 800px;
-  }
-
-  @media screen and (max-width: 900px) {
-    nav, footer {
-        flex-direction: column;
-    }
-    nav a {
-        display: block;
-        padding: 15px;
-    }
-    #background {
-        display: none;
-    }
-    #img {
-        width: 100px;
-        height: 100px;
-    }
-    .input-container {
-        margin: auto;
-        border: 10px ridge;
-        width: 120px;
-        margin-bottom: 10px;
-        padding: 5px;
-    }
-  
-    .result-container {
-        margin-top: 20px;
-        font-size: 20px;
-        column-count: 2;
-    }
-    #result {
-        color: black;
-        border: 10px ridge;
-        width: 175px;
-        margin: auto;
-        margin-top: 5px;
-        margin-bottom: 25px;
-        column-count: 1;
-        font-size: 15px;
-        padding-bottom: 30px;
-    }
-    #total-expenses {
-      color: red;
-      border: 10px ridge;
-      width: 150px;
-      margin-left: auto;
-      margin-right: 25px;
-      margin-top: 25px;
-      margin-bottom: 25px;
-      column-count: 1;
-      font-size: 15px;
-    }
-    #expenses-list {
-      color: rosybrown;
-      border: dotted;
-      padding-top: 5px;
-      margin-right: 30px;
-      margin-left: 30px;
-      background-color: lightgrey;
-      text-decoration: underline;
-      text-decoration-color: black;
-    }
-    #number {
-      width: 110px;
-    }
   }

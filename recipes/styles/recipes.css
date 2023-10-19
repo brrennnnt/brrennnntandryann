@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav {
+    background-color: #2980b9;
+    margin: 0 auto;
+
+}
+nav ul {
+  display: flex;
+  justify-content: space-evenly;
+  list-style-type: none;
+  flex-direction: column;
+}
+nav ul li {
+  flex: 1 1 100%;
+}
+nav li a {
+    display: block;
+    color: #fff;
+}
+nav a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 1rem;
+    text-decoration: none;
+}
+nav a:hover {
+    background-color: #BB7E8C;
+    border: solid;
+    border-color: #fff;
+    font-size: large;
+    color: #fff;
+}
+nav .active {
+    color: black;
+    text-decoration: underline;
+}
+main {
+    display: grid;
+    grid-template-columns: 1fr 6fr 1fr;
+}
+h1 {
+    grid-column: 1/4;
+    justify-self: center;
+    color: rgb(98, 206, 98);
+    margin: 5%;
+}
+div {
+    grid-column: 2/3;
+    justify-self: center;
+}
+div ul{
+    list-style-type: none;
+}
+div li{
+    justify-self: center;
+    align-self: center;
+}
+div h3{
+    background-color: rgba(98, 206, 98, 0.2);
+    padding: 3%;
+}
+img {
+    width: 100%;
+    height: auto;
+    border: solid rgb(98, 206, 98) 5px;
+}
+img:hover{
+    border-color: #2980b9;
+}
+.ingredients li, .instructions li {
+    margin-top: 10px;
+}
+div section ul, ol {
+    margin-left: 20px;
+}
+ol {
+    list-style-type: lower-alpha;
+}
+section h2 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: #2980b9;
+}
