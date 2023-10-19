@@ -1,0 +1,19 @@
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main ul {
+    list-style-type: none;
+}
+main li {
+    margin: 25px;
+    padding: 25px;
+    border: solid rosybrown;
+    background-color: rgb(173, 88, 138, 0.2);
+}
+main a {
+    text-decoration: none;
+    color: #2980b9;
+}

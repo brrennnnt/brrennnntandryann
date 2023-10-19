@@ -3,7 +3,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}body {
+}
+body {
     font-family: Arial, sans-serif;
     border: solid;
     border-color: #BB7E8C;
@@ -128,4 +129,10 @@ nav .active {
     width: 300px;
     margin: 25px;
     border: dotted tan 10px;
+  }
+  footer{
+    background-color: #2980b9;
+    margin: 0 auto;
+    color: #fff;
+    padding: 15px;
   }
