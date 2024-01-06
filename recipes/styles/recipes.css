@@ -41,37 +41,41 @@ nav .active {
 }
 main {
     display: grid;
-    grid-template-columns: 1fr 6fr 1fr;
 }
 h1 {
     grid-column: 1/4;
     justify-self: center;
     color: rgb(98, 206, 98);
-    margin: 5%;
+    margin: 2%;
 }
-div {
-    grid-column: 2/3;
-    justify-self: center;
+/* div {
+
+} */
+.card {
+    display: flex;
 }
-div ul{
-    list-style-type: none;
+.card ul {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+	grid-gap: 5px;
+	align-items: center;
 }
-div li{
-    justify-self: center;
-    align-self: center;
-    margin-top: 15px;
+.card li {
+    list-style: none;
+}
+.card img {
+    width: 100%;
+    height: auto;
+    border: 1px solid #ddd;
+    border-radius: 4px;
 }
 div h3{
     background-color: rgba(98, 206, 98, 0.2);
     padding: 3%;
 }
-img {
-    width: 100%;
-    height: auto;
-    border: solid rgb(98, 206, 98) 5px;
-}
 img:hover{
     border-color: #2980b9;
+    border-width: 10px;
 }
 .ingredients li, .instructions li {
     margin-top: 10px;

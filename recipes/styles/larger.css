@@ -1,0 +1,17 @@
+@media (min-width: 1500px) {
+    .card ul {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .card img {
+        width: 500px;
+        height: 450px;
+    }
+    .instructions, .ingredients {
+        margin-left: 100px;
+    }
+}
+@media (min-width: 2000px) {
+    .card ul {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
