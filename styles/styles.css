@@ -136,3 +136,15 @@ nav .active {
     color: #fff;
     padding: 15px;
   }
+  .dates {
+    text-align: center;
+    margin-top: 10%;
+    margin-bottom: 10%;
+  }
+  a {
+    text-decoration: none; /* Remove underline */
+    color: inherit; /* Inherit color from parent */
+  } 
+  a:hover {
+    text-decoration: underline;
+  }
