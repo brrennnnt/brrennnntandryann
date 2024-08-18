@@ -12,7 +12,7 @@ nav ul {
   display: flex;
   justify-content: space-evenly;
   list-style-type: none;
-  flex-direction: column;
+  flex-direction: row;
 }
 nav ul li {
   flex: 1 1 100%;
