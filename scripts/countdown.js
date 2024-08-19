@@ -20,7 +20,7 @@ function updateCountdown() {
 
     // Display the countdown in the footer
     document.getElementById('countdown').textContent = 
-        `y | ${days}d ${hours}h ${minutes}m ${seconds}s`;
+        `${days}d ${hours}h ${minutes}m ${seconds}s`;
 
     // Update the countdown every second
     setTimeout(updateCountdown, 1000);
