@@ -8,6 +8,7 @@ body {
     font-family: Arial, sans-serif;
   }
   h1 {
+    text-align: center;
     margin-top: 20px;
     color: #BB7E8C;
   }
@@ -114,7 +115,13 @@ nav .active {
     height: 100%;
     z-index: -1; 
   }
-  #img {
+  .images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  #img, #img2, #img3, #img4 {
     height: 350px;
     width: 350px;
     margin: 25px;
@@ -144,4 +151,14 @@ nav .active {
   } 
   a:hover {
     text-decoration: underline;
+  }
+  @media only screen and (max-width: 360px) {
+    #img, #img2, #img3, #img4 {
+      width: 300px;
+      height: 300px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 10px;
+    }
   }

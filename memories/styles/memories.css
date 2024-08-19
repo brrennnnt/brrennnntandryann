@@ -12,6 +12,7 @@ main li {
     padding: 25px;
     border: solid rosybrown;
     background-color: rgb(173, 88, 138, 0.2);
+    text-align: center;
 }
 main a {
     text-decoration: none;
