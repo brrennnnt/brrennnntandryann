@@ -8,11 +8,23 @@
     height: 350px;
     width: 350px;
     margin: 25px;
+    border: dotted rgb(48, 180, 48) 10px;
+}
+#img3 {
+    height: 350px;
+    width: 350px;
+    margin: 25px;
     border: dotted red 10px;
+}
+#img4 {
+    height: 350px;
+    width: 350px;
+    margin: 25px;
+    border: dotted purple 10px;
 }
 
 body {
-    background-color: black;
+background-color: black;
 }
 h1 {
     color: yellow;
