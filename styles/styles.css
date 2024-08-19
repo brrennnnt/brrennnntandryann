@@ -139,6 +139,8 @@ nav .active {
     margin: 0 auto;
     color: #fff;
     padding: 15px;
+    display: flex;
+  
   }
   .dates {
     text-align: center;

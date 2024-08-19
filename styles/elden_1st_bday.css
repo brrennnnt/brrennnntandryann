@@ -1,3 +1,9 @@
+@font-face {
+    font-family: 'StarJedi';
+    src: url('fonts/starjedi/Starjedi.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
 #img {
     border: dotted blue 10px;
   }
@@ -10,11 +16,35 @@
 #img4 {
     border: dotted purple 10px;
 }
-
+/* @keyframes alternateBorderColor {
+    0% {
+        border-color: green;
+    }
+    25% {
+        border-color: blue;
+    }
+    50% {
+        border-color: red;
+    }
+    75% {
+        border-color: purple;
+    }
+    100% {
+        border-color: green;
+    }
+}
+#img:hover, #img2:hover, #img3:hover, #img4:hover {
+    animation: alternateBorderColor 2s infinite;
+} */
 body {
+    font-family: 'StarJedi', sans-serif;
 background-color: black;
 }
 h1 {
     color: yellow;
     text-align: center;
+}
+footer {
+    background-color: yellow;
+    color: blue;
 }
