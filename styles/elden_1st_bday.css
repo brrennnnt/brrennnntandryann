@@ -1,0 +1,20 @@
+#img {
+    height: 350px;
+    width: 350px;
+    margin: 25px;
+    border: dotted blue 10px;
+  }
+#img2 {
+    height: 350px;
+    width: 350px;
+    margin: 25px;
+    border: dotted red 10px;
+}
+
+body {
+    background-color: black;
+}
+h1 {
+    color: yellow;
+    text-align: center;
+}
