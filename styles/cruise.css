@@ -1,0 +1,13 @@
+body {
+    background-color: #fffacd
+}
+h1 {
+    color: rgb(230, 103, 191);
+}
+
+#img {
+    border: 5px solid white;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 191, 255, 0.5);
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.5) 10%, transparent 10%) center/15px 15px repeat;
+}
