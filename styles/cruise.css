@@ -11,3 +11,7 @@ h1 {
     box-shadow: 0 0 20px rgba(0, 191, 255, 0.5);
     background: radial-gradient(circle, rgba(255, 255, 255, 0.5) 10%, transparent 10%) center/15px 15px repeat;
 }
+footer {
+    background-color: rgb(230, 103, 191);
+    font-size: large;
+}
