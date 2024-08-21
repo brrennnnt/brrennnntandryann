@@ -16,7 +16,7 @@
 #img4 {
     border: dotted purple 10px;
 }
-/* @keyframes alternateBorderColor {
+@keyframes alternateBorderColor {
     0% {
         border-color: green;
     }
@@ -35,7 +35,7 @@
 }
 #img:hover, #img2:hover, #img3:hover, #img4:hover {
     animation: alternateBorderColor 2s infinite;
-} */
+}
 body {
     font-family: 'StarJedi', sans-serif;
 background-color: black;
