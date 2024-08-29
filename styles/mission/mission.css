@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.map-container {
+    position: relative;
+    width: 100%;
+    max-width: 1000px; /* Adjust to fit your map size */
+    margin: 0 auto;
+}
+
+.map-image {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.area {
+    position: absolute;
+    color: white;
+    text-decoration: none;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 14px;
+    transition: background-color 0.3s;
+}
+
+.area:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Position the city links (adjust the values as per your map) */
+.livingston {
+    top: 35%; /* Adjust the top and left values to position over the city */
+    left: 63%;
+    transform: translate(-50%, -50%);
+}
+
+.orkney {
+    top: 3%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+}
