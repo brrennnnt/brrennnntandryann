@@ -1,12 +1,20 @@
 nav a:hover {
     background-color: darkgreen;
 }
-    body {
+nav p {
+    font-size: large;
+    text-align: center;
+    padding: 1%;
+    color: white;
+}
+body {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
 }
-
+h1 {
+    color: darkgreen;
+}
 .map-container {
     position: relative;
     width: 100%;

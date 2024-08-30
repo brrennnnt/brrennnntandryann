@@ -2,10 +2,10 @@ const areas = document.querySelectorAll('.area');
 
 areas.forEach(area => {
     area.addEventListener('mouseenter', () => {
-        area.innerText += " (Click for more info)";
+        area.innerText += " (see photos)";
     });
 
     area.addEventListener('mouseleave', () => {
-        area.innerText = area.innerText.replace(" (Click for more info)", "");
+        area.innerText = area.innerText.replace(" (see photos)", "");
     });
 });
