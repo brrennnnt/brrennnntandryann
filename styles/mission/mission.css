@@ -61,3 +61,18 @@ nav a:hover {
     left: 72%;
     transform: translate(-50%, -50%);
 }
+.aberdeen {
+    top: 24%;
+    left: 72%;
+    transform: translate(-50%, -50%);
+}
+.paisley {
+    top: 37.5%;
+    left: 56%;
+    transform: translate(-50%, -50%);
+}
+.belfast {
+    top: 45.7%;
+    left: 46%;
+    transform: translate(-50%, -50%);
+}
