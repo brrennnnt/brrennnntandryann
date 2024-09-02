@@ -11,6 +11,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
+    background-color: rgb(221, 248, 221);
 }
 h1 {
     color: darkgreen;
@@ -31,22 +32,21 @@ h1 {
 .area {
     position: absolute;
     color: white;
-    text-decoration: none;
-    background-color: rgba(0, 0, 0, 0.5);
-    padding: 5px;
-    border-radius: 5px;
-    font-size: 14px;
-    transition: background-color 0.3s;
 }
 
 .area:hover {
-    background-color: rgba(0, 0, 0, 0.8);
+    padding: 5px;
+    border-radius: 5px;
+    border: solid black;
+    font-size: 24px;
+    background-color: darkgreen;
+    text-decoration: none;
 }
 
 /* Position the city links (adjust the values as per your map) */
 .livingston {
-    top: 35%; /* Adjust the top and left values to position over the city */
-    left: 63%;
+    top: 35.9%; /* Adjust the top and left values to position over the city */
+    left: 62%;
     transform: translate(-50%, -50%);
 }
 .orkney {
@@ -60,22 +60,22 @@ h1 {
     transform: translate(-50%, -50%);
 }
 .stranraer {
-    top: 44%;
-    left: 53%;
+    top: 44.5%;
+    left: 51.4%;
     transform: translate(-50%, -50%);
 }
 .edinburgh {
-    top: 35%;
-    left: 72%;
+    top: 35.7%;
+    left: 64%;
     transform: translate(-50%, -50%);
 }
 .aberdeen {
-    top: 24%;
-    left: 72%;
+    top: 23.5%;
+    left: 72.6%;
     transform: translate(-50%, -50%);
 }
 .paisley {
-    top: 37.5%;
+    top: 35.4%;
     left: 56%;
     transform: translate(-50%, -50%);
 }
@@ -84,3 +84,13 @@ h1 {
     left: 46%;
     transform: translate(-50%, -50%);
 }
+#img {
+    background-color: #f9f9f9; /* Optional background color */
+    border: 5px solid #004d00; /* Dark green color */
+    border-radius: 8px; /* Optional: rounded corners for a softer look */
+}
+
+
+
+
+
