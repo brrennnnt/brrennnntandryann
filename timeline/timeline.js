@@ -12,7 +12,7 @@ document.getElementById('passwordForm').addEventListener('submit', function(even
   var password = document.getElementById('passwordInput').value;
 
   // Replace 'your_password_here' with your actual password
-  if (password === 'bingbongisagoldfish') {
+  if (password === '1234') {
     // Store authentication in session storage
     sessionStorage.setItem('authenticated', true);
 
