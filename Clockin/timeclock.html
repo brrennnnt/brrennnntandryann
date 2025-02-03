@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Time Clock</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="timeclock.css">
+</head>
+<body>
+    <div class="container">
+        <button id="clockInBtn">Clock In</button>
+        <button id="clockOutBtn" disabled>Clock Out</button>
+        <p id="clockInTime">Clocked in at: --:--</p>
+        <p id="timer">Time: 00:00:00</p>
+        <p id="earnings">Earnings: $0.00</p>
+    </div>
+
+
+    <table border="1">
+        <tr>
+            <th>Day</th>
+            <th>Date</th>
+            <th>Clock In 1</th><th>Clock Out 1</th>
+            <th>Clock In 2</th><th>Clock Out 2</th>
+            <th>Clock In 3</th><th>Clock Out 3</th>
+            <th>Total Hours</th><th>Earnings</th>
+        </tr>
+        <tr><td>Sunday</td><td id="sundayDate"></td>
+            <td id="sundayIn1">--:--</td><td id="sundayOut1">--:--</td>
+            <td id="sundayIn2">--:--</td><td id="sundayOut2">--:--</td>
+            <td id="sundayIn3">--:--</td><td id="sundayOut3">--:--</td>
+            <td id="sundayHours">0</td><td id="sundayEarnings">$0.00</td>
+        </tr>
+        <tr><td>Monday</td><td id="mondayDate"></td>
+            <td id="mondayIn1">--:--</td><td id="mondayOut1">--:--</td>
+            <td id="mondayIn2">--:--</td><td id="mondayOut2">--:--</td>
+            <td id="mondayIn3">--:--</td><td id="mondayOut3">--:--</td>
+            <td id="mondayHours">0</td><td id="mondayEarnings">$0.00</td>
+        </tr>
+        <tr><td>Tuesday</td><td id="tuesdayDate"></td>
+            <td id="tuesdayIn1">--:--</td><td id="tuesdayOut1">--:--</td>
+            <td id="tuesdayIn2">--:--</td><td id="tuesdayOut2">--:--</td>
+            <td id="tuesdayIn3">--:--</td><td id="tuesdayOut3">--:--</td>
+            <td id="tuesdayHours">0</td><td id="tuesdayEarnings">$0.00</td>
+        </tr>
+        <tr><td>Wednesday</td><td id="wednesdayDate"></td>
+            <td id="wednesdayIn1">--:--</td><td id="wednesdayOut1">--:--</td>
+            <td id="wednesdayIn2">--:--</td><td id="wednesdayOut2">--:--</td>
+            <td id="wednesdayIn3">--:--</td><td id="wednesdayOut3">--:--</td>
+            <td id="wednesdayHours">0</td><td id="wednesdayEarnings">$0.00</td>
+        </tr>
+        <tr><td>Thursday</td><td id="thursdayDate"></td>
+            <td id="thursdayIn1">--:--</td><td id="thursdayOut1">--:--</td>
+            <td id="thursdayIn2">--:--</td><td id="thursdayOut2">--:--</td>
+            <td id="thursdayIn3">--:--</td><td id="thursdayOut3">--:--</td>
+            <td id="thursdayHours">0</td><td id="thursdayEarnings">$0.00</td>
+        </tr>
+        <tr><td>Friday</td><td id="fridayDate"></td>
+            <td id="fridayIn1">--:--</td><td id="fridayOut1">--:--</td>
+            <td id="fridayIn2">--:--</td><td id="fridayOut2">--:--</td>
+            <td id="fridayIn3">--:--</td><td id="fridayOut3">--:--</td>
+            <td id="fridayHours">0</td><td id="fridayEarnings">$0.00</td>
+        </tr>
+        <tr><td>Saturday</td><td id="saturdayDate"></td>
+            <td id="saturdayIn1">--:--</td><td id="saturdayOut1">--:--</td>
+            <td id="saturdayIn2">--:--</td><td id="saturdayOut2">--:--</td>
+            <td id="saturdayIn3">--:--</td><td id="saturdayOut3">--:--</td>
+            <td id="saturdayHours">0</td><td id="saturdayEarnings">$0.00</td>
+        </tr>
+    </table>
+
+    <!-- reset button -->
+    <button id="resetBtn">Reset</button>
+
+    <!-- Scripts -->
+    <script src="timeclock.js"></script>
+</body>
+</html>
