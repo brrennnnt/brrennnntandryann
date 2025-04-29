@@ -53,7 +53,7 @@ body {
   color: #777;
 }
 /*-----------------------------------*/
-* {
+/* * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -195,7 +195,7 @@ nav .active {
     padding: 15px;
     display: flex;
   
-  }
+  } */
   .dates {
     text-align: center;
     margin-top: 10%;
